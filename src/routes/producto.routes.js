@@ -8,5 +8,6 @@ const productoController = require("../controllers/producto.controller.js");
 //Se crean las rutas
 
 router.get("/", productoController.index);
+router.post('/', productoController.create)
 
 module.exports = router;
